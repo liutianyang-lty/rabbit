@@ -45,12 +45,12 @@ class Rabbit implements CreateObject{
     private function __construct($conn)
     {
         // 创建连接和channel
-        $conn = new \AMQPConnection($conn);
+        $conn = new AMQPConnection($conn);
         if (!$conn->connect()) { // 需要手动连接
             die("Cannot connect to the broker!\n");
         }
 
-        self::$_channel = new \AMQPChannel($conn);
+        self::$_channel = new AMQPChannel($conn);
         self::$connection = $conn;
     }
 
@@ -81,7 +81,7 @@ class Rabbit implements CreateObject{
     public function setExchange($exchangeName, $queueName)
     {
         // 创建交换机
-        $ex = new \AMQPExchange(self::$_channel);
+        $ex = new AMQPExchange(self::$_channel);
         self::$exchange = $ex;
         $ex->setName($exchangeName);
 
@@ -103,7 +103,7 @@ class Rabbit implements CreateObject{
     private static function setQueue($queueName, $exchangeName)
     {
         // 创建队列
-        $q = new \AMQPQueue(self::$_channel);
+        $q = new AMQPQueue(self::$_channel);
         $q->setName($queueName);
         $q->setFlags(AMQP_DURABLE); // 持久化
         $q->declareQueue(); // 声明队列
