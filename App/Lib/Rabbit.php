@@ -5,13 +5,12 @@
  * Date: 2020/5/25 0025
  * Time: 22:01
  */
-namespace App\Lib;
+//namespace App\Lib;
 
 //include "../Common/CreateObject.php";
 //include "../../Config/rabbit.php";
 include __DIR__ . "/App/Common/CreateObject.php";
 include __DIR__ . "/Config/rabbit.php";
-use App\Common\CreateObject;
 
 class Rabbit implements CreateObject{
 

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8caec151-4a92-47d9-8089-7aa2aea48c8a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Config/App/Common/CreateObject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/App/Common/Singleton.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/App/Lib/Rabbit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Common/CreateObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Common/CreateObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Rabbit.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Lib/Rabbit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produ.php" beforeDir="false" afterPath="$PROJECT_DIR$/produ.php" afterDir="false" />
     </list>
@@ -20,8 +19,8 @@
       <file leaf-file-name="custom.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="132">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -38,8 +37,8 @@
       <file leaf-file-name="Rabbit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/Lib/Rabbit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="99">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -52,8 +51,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/custom.php" />
         <option value="$PROJECT_DIR$/produ.php" />
+        <option value="$PROJECT_DIR$/custom.php" />
+        <option value="$PROJECT_DIR$/App/Common/CreateObject.php" />
+        <option value="$PROJECT_DIR$/App/Lib/Rabbit.php" />
       </list>
     </option>
   </component>
@@ -85,6 +86,12 @@
               <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbit" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
@@ -129,12 +136,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590456434347</updated>
-      <workItem from="1590456435682" duration="186000" />
+      <workItem from="1590456435682" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186000" />
+    <option name="totallyTimeSpent" value="474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -149,7 +156,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -177,8 +184,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/custom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="132">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -189,10 +196,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Common/CreateObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/Lib/Rabbit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="99">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

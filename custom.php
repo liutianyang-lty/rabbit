@@ -17,4 +17,4 @@ $fun = function ($envelope, $queue){
     var_dump($envelope->getBody());
 };
 
-\App\Lib\Rabbit::getInstance()->listen("jiaohuanji, queue1")->run($fun);
+Rabbit::getInstance()->listen("jiaohuanji, queue1")->run($fun);
