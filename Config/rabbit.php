@@ -8,7 +8,7 @@
 return [
     'RabbitMq' => [
         // Rabbitmq 服务地址
-        'host' => '127.0.0.1',
+        'host' => '192.168.5.22',
         // Rabbitmq 服务端口
         'port' => '5672',
         // Rabbitmq 帐号
