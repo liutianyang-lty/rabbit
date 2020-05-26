@@ -10,7 +10,7 @@ return [
         'host' => '127.0.0.1',
         'port' => 5672,
         'vhost' => '/',
-        'login' => 'guest',
-        'password' => 'guest'
+        'login' => 'root',
+        'password' => '123456'
     ]
 ];
