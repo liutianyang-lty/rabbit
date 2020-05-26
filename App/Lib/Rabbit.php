@@ -7,10 +7,11 @@
  */
 //namespace App\Lib;
 
-include "../Common/CreateObject.php";
-include "../../Config/rabbit.php";
-//include __DIR__ . "/App/Common/CreateObject.php";
-//include __DIR__ . "/Config/rabbit.php";
+//include "../Common/CreateObject.php";
+//include "../../Config/rabbit.php";
+var_dump(__DIR__);
+include __DIR__ . "/App/Common/CreateObject.php";
+include __DIR__ . "/Config/rabbit.php";
 
 class Rabbit implements CreateObject{
 
