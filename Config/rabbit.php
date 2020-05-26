@@ -7,14 +7,10 @@
  */
 return [
     'RabbitMq' => [
-        // Rabbitmq 服务地址
-        'host' => '192.168.5.22',
-        // Rabbitmq 服务端口
-        'port' => '5672',
-        // Rabbitmq 帐号
+        'host' => '127.0.0.1',
+        'port' => 5672,
+        'vhost' => '/',
         'login' => 'guest',
-        // Rabbitmq 密码
-        'password' => 'guest',
-        'vhost'=>'/'
+        'password' => 'guest'
     ]
 ];
