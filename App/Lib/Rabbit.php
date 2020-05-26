@@ -44,18 +44,16 @@ class Rabbit implements CreateObject{
      */
     private function __construct($conn)
     {
-        //var_dump($conn);die;
-        // 创建连接和channel
-        $conn = new AMQPConnection($conn);
-        //var_dump($conn);die;
-        $flag = $conn->connect();
-        var_dump($flag);die;
-        if (!$flag) { // 需要手动连接
-            die("Cannot connect to the broker!\n");
-        }
+        try{
+            // 创建连接和channel
+            $conn = new AMQPConnection($conn);
+            $conn->connect();
 
-        self::$_channel = new AMQPChannel($conn);
-        self::$connection = $conn;
+            self::$_channel = new AMQPChannel($conn);
+            self::$connection = $conn;
+        } catch (\Exception $e) {
+            var_dump($e->getMessage());
+        }
     }
 
     /**

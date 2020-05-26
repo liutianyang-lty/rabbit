@@ -18,7 +18,7 @@ try {
         'password' => 'guest'
     ]);
 
-    var_dump($connection->connect());die;
+    $connection->connect();
 
     //2. 建立通道
     $channel = new AMQPChannel($connection);
