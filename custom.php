@@ -7,7 +7,7 @@
  */
 
 include __DIR__ . "/App/Lib/Rabbit.php";
-use App\Lib\Rabbit;
+//use App\Lib\Rabbit;
 $fun = function ($envelope, $queue){
 
     //消费 （刚取出数据，业务终止了；取出消息，执行不成功）怎么保证消息的可靠性
@@ -17,4 +17,4 @@ $fun = function ($envelope, $queue){
     var_dump($envelope->getBody());
 };
 
-Rabbit::getInstance()->listen("jiaohuanji, queue1")->run($fun);
+\App\Lib\Rabbit::getInstance()->listen("jiaohuanji, queue1")->run($fun);
