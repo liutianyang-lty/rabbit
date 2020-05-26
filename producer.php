@@ -17,6 +17,7 @@ try {
         'login' => 'guest',
         'password' => 'guest'
     ]);
+    var_dump($connection);die;
     $connection->connect();
 
     //2. 建立通道
