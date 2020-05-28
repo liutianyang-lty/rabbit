@@ -1,4 +1,4 @@
-# rabbit
+# php使用rabbitmq
 producer.php是基于未封装的rabbit类库写的生产者demo
 customer.php是基于未封装的rabbit类库写的消费者demo
 
