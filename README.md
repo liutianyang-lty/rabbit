@@ -1,1 +1,8 @@
 # rabbit
+producer.php是基于未封装的rabbit类库写的生产者demo
+customer.php是基于未封装的rabbit类库写的消费者demo
+
+produ.php是基于封装的rabbit类库写的生产者demo
+custom.php是基于封装的rabbit类库写的消费者demo
+
+rabbit基础类库文件:App/Lib/Rabbit.php
