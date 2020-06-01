@@ -40,7 +40,6 @@ class Rabbit implements CreateObject{
      * 私有化构造函数
      * Rabbit constructor.
      * @param $conn
-     * @throws \AMQPConnectionException
      */
     private function __construct($conn)
     {
@@ -85,7 +84,7 @@ class Rabbit implements CreateObject{
         // 创建交换机
         $ex = new AMQPExchange(self::$_channel);
         self::$exchange = $ex;
-        $ex->setName($exchangeName);
+        $ex->setName($exchangeName); //设置交换机名称
 
         $ex->setType(AMQP_EX_TYPE_DIRECT); // direct类型
         $ex->setFlags(AMQP_DURABLE); // 持久化
